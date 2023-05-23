@@ -5,6 +5,7 @@ import siluetabotella from '../assets/siluetabotella.png'
 
 export const MainPage = () => {
     return (
+      <div className={styles.pageContainer}>
         <div className={styles.mainContainer}>
             <nav className={styles.navbar}>
                 <ul>
@@ -13,18 +14,24 @@ export const MainPage = () => {
                     <li>Contacto</li>
                 </ul>
             </nav>
-            <div className={styles.productContainer}>
-                <img className={styles.productExample} src={siluetabotella} alt="productoEjemplo" />
-                <div className={styles.textContainer}>
-                    <h2 className={styles.productText}>Producto Ejemplo</h2>
+            <div className={styles.productsContainer}>
+                <div className={styles.productContainer}>
+                    <img className={styles.productExample} src={siluetabotella} alt="productoEjemplo" />
+                    <div className={styles.textContainer}>
+                        <h2 className={styles.productText}>Producto Ejemplo</h2>
+                    </div>
                 </div>
-                <img className={styles.productExample} src={siluetabotella} alt="productoEjemplo" />
-                <div className={styles.textContainer}>
-                    <h2 className={styles.productText2}>Producto Ejemplo</h2>
+                <div className={styles.productContainer2}>
+                    <img className={styles.productExample2} src={siluetabotella} alt="productoEjemplo" />
+                    <div className={styles.textContainer2}>
+                        <h2 className={styles.productText2}>Producto Ejemplo</h2>
+                    </div>
                 </div>
-                <img className={styles.productExample} src={siluetabotella} alt="productoEjemplo" />
-                <div className={styles.textContainer}>
-                    <h2 className={styles.productText3}>Producto Ejemplo</h2>
+                <div className={styles.productContainer3}>
+                    <img className={styles.productExample3} src={siluetabotella} alt="productoEjemplo" />
+                    <div className={styles.textContainer3}>
+                        <h2 className={styles.productText3}>Producto Ejemplo</h2>
+                    </div>
                 </div>
             </div>
             <div className={styles.presentationContainer}>
@@ -35,5 +42,9 @@ export const MainPage = () => {
                 </div>
             </div>
         </div>
+        <div className={styles.info}>
+            INFO
+        </div>
+      </div>
     )
 };
