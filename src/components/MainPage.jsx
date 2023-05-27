@@ -43,7 +43,6 @@ export const MainPage = () => {
             </div>
         </div>
         <div className={styles.info}>
-            INFO
         </div>
       </div>
     )
