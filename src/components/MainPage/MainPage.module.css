@@ -10,21 +10,6 @@
     color: rgb(214, 214, 214);
 }
 
-.navbar {
-    display: flex;
-    flex-direction: column;
-    height: 300%;
-    text-align: center;
-    color: white;
-    background-image: url(../assets/bgtomato.jpg);
-    width: 20%;
-    position: fixed;
-    z-index: 999;
-    box-shadow: 2px 10px 50px 15px rgba(73, 72, 71, 0.33);
-    -webkit-box-shadow: 2px 10px 50px 15px rgba(66, 66, 65, 0.33);
-    -moz-box-shadow: 2px 10px 50px 15px rgba(48, 45, 43, 0.33);
-}
-
 a {
     color: black;
     z-index: 1000;
@@ -47,6 +32,18 @@ li {
 li:hover {
     background-color: #ffa412ad;
     font-size: 25px;
+}
+
+.name {
+    margin: 0;
+    font-size: 35px;
+    font-weight: bolder;
+    color: #272626;
+}
+
+p {
+    font-size: 13px;
+    color: #272626;
 }
 
 .presentationContainer {
@@ -150,7 +147,6 @@ li:hover {
 .socialMediaContainer {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
 }
 
 .socialMediaIcons {
