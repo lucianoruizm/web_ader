@@ -13,9 +13,6 @@ export const MainPage = () => {
             <div className={styles.productsContainer}>
                 <div className={styles.productContainer}>
                     <img className={styles.productExample} src={productosgmh1} alt="productosgmh1" />
-                    <div className={styles.textContainer}>
-                        <h2 className={styles.productText}>Producto Ejemplo</h2>
-                    </div>
                 </div>
                 <div className={styles.productContainer2}>
                     <img className={styles.productExample2} src={siluetabotella} alt="productoEjemplo" />

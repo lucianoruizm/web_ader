@@ -3,12 +3,10 @@
 :root {
   font-family: 'Geologica', sans-serif;
   line-height: 1.5;
-  font-weight: 400;
 
   background: rgb(255,255,255);
   background: radial-gradient(circle, #c9c8c7a1 0%, rgb(241, 240, 233) 100%); 
 
-  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

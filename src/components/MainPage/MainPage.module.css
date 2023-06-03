@@ -91,6 +91,11 @@ p {
     object-fit: cover;
 }
 
+.productExample:hover {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
 .productExample2 {
     display: block;
     width: 60%;

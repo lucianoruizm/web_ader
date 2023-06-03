@@ -1,0 +1,33 @@
+.titleLogoContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleContainer {
+    margin-bottom: 95px;
+}
+
+.logoInicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.textContainer {
+    display: flex;
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 50%;   
+}
