@@ -15,8 +15,7 @@ export const Productos = () => {
           <h3>productos</h3>
         </div>
         <div className={styles.logoInicio}>
-          <img className={styles.logo} src={logogmh} alt="logo" />
-          <Link to={'/'}>Inicio</Link>
+          <Link className={styles.link} to={'/'}><img className={styles.logo} src={logogmh} alt="logo" /></Link>
         </div>
       </div>
       <div className={styles.itemsContainer}>

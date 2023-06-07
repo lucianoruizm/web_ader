@@ -17,9 +17,9 @@ function App() {
        <Route path='/productos' element={<Productos />} />
        <Route path='/empresa' element={<Empresa />} />
       </Routes>
-      <footer>
+      {/* <footer>
         &copy; 2023 Aderezos Gonmoher | Todos los derechos reservados
-      </footer>
+      </footer> */}
     </Router>
   )
 }

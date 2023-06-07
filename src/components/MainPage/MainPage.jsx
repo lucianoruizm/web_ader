@@ -1,7 +1,7 @@
 import { FaInstagram, FaFacebook } from "react-icons/fa";
 import styles from '../../components/MainPage/MainPage.module.css'
 import logogmh from '../../assets/logogmh.png'
-import siluetabotella from '../../assets/siluetabotella.png'
+// import siluetabotella from '../../assets/siluetabotella.png'
 import productosgmh1 from '../../assets/productosgmh1.png'
 import { Navbar } from "../Navbar/Navbar";
 
@@ -15,16 +15,10 @@ export const MainPage = () => {
                     <img className={styles.productExample} src={productosgmh1} alt="productosgmh1" />
                 </div>
                 <div className={styles.productContainer2}>
-                    <img className={styles.productExample2} src={siluetabotella} alt="productoEjemplo" />
-                    <div className={styles.textContainer2}>
-                        <h2 className={styles.productText2}>Producto Ejemplo</h2>
-                    </div>
+                    <img className={styles.productExample2} src={productosgmh1} alt="productoEjemplo" />
                 </div>
                 <div className={styles.productContainer3}>
-                    <img className={styles.productExample3} src={siluetabotella} alt="productoEjemplo" />
-                    <div className={styles.textContainer3}>
-                        <h2 className={styles.productText3}>Producto Ejemplo</h2>
-                    </div>
+                    <img className={styles.productExample3} src={productosgmh1} alt="productoEjemplo" />
                 </div>
             </div>
             <div className={styles.presentationContainer}>
