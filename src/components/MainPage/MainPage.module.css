@@ -7,7 +7,7 @@
     padding: 0;
     justify-content: space-between;
     align-items: flex-start;
-    color: white;
+    color: var(--grey-color);
 }
 
 a {
@@ -42,6 +42,11 @@ li:hover {
 
 p {
     font-size: 13px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
 }
 
 .presentationContainer {
@@ -182,6 +187,6 @@ p {
     height: 420px;
     width: 100%;
     text-align: center;
-    color: white;
+    color: var(--grey-color);
     /* Foto de <a href="https://unsplash.com/@jsnbrsc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jason Briscoe</a> en <a href="https://unsplash.com/es/fotos/7MAjXGUmaPw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
 }

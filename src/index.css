@@ -1,16 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
-  font-family: 'Geologica', sans-serif;
+  --main-color: #EBEBEB;
+  --grey-color: #666;
+  font-family: 'Roboto', sans-serif;
   line-height: 1.5;
 
-  background: rgb(219,213,176);
-  background: radial-gradient(circle, rgba(219,213,176,1) 0%, rgba(230,195,160,1) 50%, rgba(235,140,114,1) 100%);
+  background: var(--main-color);
 
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
 }
 
 body {

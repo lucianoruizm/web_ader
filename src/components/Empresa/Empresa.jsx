@@ -10,12 +10,12 @@ export const Empresa = () => {
                     <Link className={styles.link} to={'/'}><img className={styles.logo} src={logogmh} alt="logo" /></Link>
                 </div>
                 <div className={styles.titleContainer}>
-                    <h2>Historia de Aderezos Gonmoher</h2>
+                    <h2>HISTORIA DE ADEREZOS GONMOHER</h2>
                 </div>
             </div>
             <div className={styles.textContainer}>
                 <div className={styles.text1}>
-                    <h3>Productos GONMOHER</h3>
+                    <h3>PRODUCTOS GONMOHER</h3>
                     <p>
                        Una empresa pensada y creada para satisfacer la necesidad de complementar los sabores en los alimentos.
                     </p>

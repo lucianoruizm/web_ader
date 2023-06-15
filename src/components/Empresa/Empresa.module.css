@@ -1,6 +1,7 @@
 .titleLogoContainer {
     display: flex;
     flex-direction: column;
+    color: var(--grey-color);
 }
 
 .titleContainer {

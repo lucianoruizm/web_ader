@@ -6,16 +6,16 @@ export const Navbar = () => {
     <nav className={styles.navbar}>
         <ul>
             <Link to={'/'}>
-                <li>Inicio</li>
+                <li>INICIO</li>
             </Link>
             <Link to={'/productos'}>
-                <li>Productos</li>
+                <li>PRODUCTOS</li>
             </Link>
             <Link to={'/empresa'}>
-                <li>Empresa</li>
+                <li>EMPRESA</li>
             </Link>
             <Link to={'/contacto'}>
-                <li>Contacto</li>
+                <li>CONTACTO</li>
             </Link>
         </ul>
     </nav>
