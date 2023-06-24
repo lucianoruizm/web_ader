@@ -1,0 +1,102 @@
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 {
+    text-align: left;
+}
+
+input {
+    padding: 10px 5px;
+    border-radius: 3px;
+    border: 1px solid var(--grey-light-color);
+    background-color: var(--white);
+}
+
+textarea {
+    border-radius: 3px;
+    border: 1px solid var(--grey-light-color);
+    background-color: var(--white);
+}
+
+button {
+    padding: 10px 0;
+    border-radius: 3px;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: var(--secondary-color-dark);
+}
+
+.contactContainer {
+    margin: auto;
+    width: 70%;
+    position: relative;
+}
+
+.contactSectionsContainer {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    background-color: var(--white);
+}
+
+.contactSectionsContainer {
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    padding: 50px 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 50%;
+    justify-content: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: baseline;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.socialMediaContainer {
+    display: flex;
+}
+
+.socialMediaIcons {
+    margin: auto;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 2em;
+}
+
+.igIcon{
+    color: #c84d4d;
+}
+
+.fbIcon {
+    color: #4c28af;
+}
+
+.igIcon:hover, .fbIcon:hover{
+    color: black;
+}

@@ -3,6 +3,10 @@
 :root {
   --main-color: #EBEBEB;
   --grey-color: #666;
+  --grey-light-color: #bebebe;
+  --white: #f7f6f6;
+  --secondary-color: #17ce89;
+  --secondary-color-dark: #0e8156;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
 
