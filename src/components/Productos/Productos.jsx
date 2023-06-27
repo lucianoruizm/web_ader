@@ -40,7 +40,7 @@ export const Productos = () => {
         </div>
       </div>
       <div className={styles.tiposProductosContainer}>
-        <h2>TIPOS DE PRODUCTOS</h2>
+        <h2 className={styles.titleProductTypes}>TIPOS DE PRODUCTOS</h2>
         <div className={styles.cardContainer}>
           <div className={styles.card}>
             <img className={styles.cardImg} src={imgExample} alt="imExample"/>

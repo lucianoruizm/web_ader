@@ -70,6 +70,10 @@ h3 {
     margin: 20px 0 50px;
 }
 
+.titleProductTypes {
+    text-align: center;
+}
+
 .cardContainer {
     display: flex;
     align-items: center;

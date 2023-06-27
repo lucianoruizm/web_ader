@@ -1,7 +1,12 @@
+.empresaInfoContainer {
+    padding-left: 180px;
+}
+
 .titleLogoContainer {
     display: flex;
     flex-direction: column;
     color: var(--grey-color);
+    align-items: center;
 }
 
 .titleContainer {

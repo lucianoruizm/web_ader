@@ -9,8 +9,8 @@ import { Link } from "react-router-dom";
 export const MainPage = () => {
     return (
       <div className={styles.pageContainer}>
+        <Navbar />
         <div className={styles.mainContainer}>
-            <Navbar />
             <div className={styles.productsContainer}>
                 <div className={styles.productContainer}>
                     <Link className={styles.link} to={'/productos'}>
