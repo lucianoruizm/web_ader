@@ -27,3 +27,8 @@ body {
 textarea {
   font-family: 'Roboto', sans-serif;
 }
+
+.pageContainer {
+  position: relative;
+  width: 100%;
+}

@@ -5,7 +5,7 @@ import { Navbar } from '../Navbar/Navbar';
 
 export const Empresa = () => {
     return (
-        <div>
+        <div className={styles.pageContainer}>
             <Navbar />
             <div className={styles.empresaInfoContainer}>
                 <div className={styles.titleLogoContainer}>

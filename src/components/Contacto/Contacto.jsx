@@ -4,7 +4,7 @@ import { Navbar } from "../Navbar/Navbar";
 
 export const Contacto = () => {
   return (
-        <>
+        <div className={styles.pageContainer}>
             <Navbar />
             <div className={styles.contactContainer}>
                 <h1>FORMULARIO DE CONTACTO</h1>
@@ -30,6 +30,6 @@ export const Contacto = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
   )
 }

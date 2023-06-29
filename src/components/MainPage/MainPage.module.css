@@ -12,26 +12,7 @@
 
 a {
     color: black;
-    z-index: 1000;
-}
-
-ul {
-    padding: 0;
-    width: 100%;
-}
-
-li {
-    list-style: none;
-    cursor: pointer;
-    font-size: 20px;
-    width: 100%;
-    padding: 10px 0;
-    transition-duration: .5s;
-}
-
-li:hover {
-    background-color: #ffa412ad;
-    font-size: 25px;
+    z-index: 999;
 }
 
 .name {
@@ -169,16 +150,12 @@ p {
     font-size: 3em;
 }
 
-.igIcon{
-    color: #c84d4d;
-}
-
-.fbIcon {
-    color: #4c28af;
+.igIcon, fbIcon{
+    color: black;
 }
 
 .igIcon:hover, .fbIcon:hover{
-    color: black;
+    color: var(--grey-color);
 }
 
 .info {
@@ -190,4 +167,64 @@ p {
     text-align: center;
     color: var(--grey-color);
     /* Foto de <a href="https://unsplash.com/@jsnbrsc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jason Briscoe</a> en <a href="https://unsplash.com/es/fotos/7MAjXGUmaPw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+}
+
+@media (max-width: 1115px) {
+    .presentationContainer {
+        width: 30%;
+    }
+    .name {
+        font-size: 30px;
+        text-align: center;
+    }
+    .socialMediaIcons {
+        padding: 15px;
+        font-size: 2.4em;
+    }
+    .productExample, .productExample2,.productExample3 {
+        width: 50%;
+    }
+    .productsContainer {
+        padding-left: 150px;
+    }
+}
+
+@media (max-width: 885px) {
+    .presentationContainer {
+        width: 50%;
+    }
+    .productContainer, .productContainer2, .productContainer3 {
+        padding: 10px;
+    }
+    .productExample, .productExample2,.productExample3 {
+        margin: 10px;
+    }
+    .logo {
+        width: 40%;
+    }
+    p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 685px) {
+    .mainContainer {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .presentationContainer {
+        width: 100%;
+        margin: 100px 0 0;
+        padding: 0;
+    }
+    .productsContainer {
+        padding-left: 0;
+    }
+    .productContainer, .productContainer2, .productContainer3 {
+        padding: 0;
+    }
+    .logo {
+        margin: 0;
+        width: 30%;
+    }
 }
