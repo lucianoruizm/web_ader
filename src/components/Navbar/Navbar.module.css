@@ -38,8 +38,39 @@ li:hover {
     font-size: 25px;
 }
 
+.ulContainer {
+    position: relative;
+    width: 100%;
+}
+
+.homeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+    gap: 5px;
+}
+
 a {
     text-decoration: none;
+}
+
+@media (max-width: 955px) {
+    li {
+        font-size: 15px;
+    }
+    li:hover {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    li {
+        font-size: 13px;
+    }
+    li:hover {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 685px) {
@@ -62,5 +93,15 @@ a {
         font-size: 18px;
         color: #8f8f8fad;
         background: none;
-    }    
+    }
+    .homeContainer {
+        padding: 0;
+        align-items: baseline;
+    }
+}
+
+@media (max-width: 425px) {
+    li {
+        font-size: 11px;
+    }
 }
