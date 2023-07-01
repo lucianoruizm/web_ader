@@ -38,8 +38,9 @@ export const MainPage = () => {
                 </div>
             </div>
         </div>
-        <div className={styles.info}>
-        </div>
+        {/* <div className={styles.info}>
+            <img src="" alt="" />
+        </div> */}
       </div>
     )
 };

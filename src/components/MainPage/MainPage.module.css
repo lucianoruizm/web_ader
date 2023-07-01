@@ -38,12 +38,14 @@ p {
     width: 50%;
     margin-top: 20px;
     color: var(--blue-color);
+    position: relative;
 }
 
 .productsContainer {
     display: flex;
     flex-direction: column;
-    padding-left: 300px;
+    padding: 0 80px 0 250px;
+    background-color: #ffa41218;
 }
 
 .productContainer {
@@ -218,7 +220,8 @@ p {
         padding: 0;
     }
     .productsContainer {
-        padding-left: 0;
+        padding: 0;
+        width: 100%;
     }
     .productContainer, .productContainer2, .productContainer3 {
         padding: 0;
