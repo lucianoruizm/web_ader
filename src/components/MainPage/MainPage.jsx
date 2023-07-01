@@ -38,9 +38,11 @@ export const MainPage = () => {
                 </div>
             </div>
         </div>
-        {/* <div className={styles.info}>
-            <img src="" alt="" />
-        </div> */}
+        <div className={styles.infoContainer}>
+            <div className={styles.info}>
+                <h2 className={styles.titleInfo}>Crea las mejores recetas</h2>
+            </div>
+        </div>
       </div>
     )
 };

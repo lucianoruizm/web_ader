@@ -34,7 +34,7 @@ li {
 }
 
 li:hover {
-    background-color: #ffa412ad;
+    background-color: var(--orange);
     font-size: 25px;
 }
 

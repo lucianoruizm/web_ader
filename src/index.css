@@ -2,12 +2,14 @@
 
 :root {
   --main-color: #eff8ff;
+  --bg-main: #ffa41218;
   --grey-color: #666;
   --grey-light-color: #bebebe;
   --white: #ffffff;
   --blue-color: #004976;
   --secondary-color: #17ce89;
   --secondary-color-dark: #0e8156;
+  --orange: #ffa412ad;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
 
